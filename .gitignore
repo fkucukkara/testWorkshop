@@ -1,0 +1,70 @@
+﻿# Build artifacts
+**/[Bb]in/
+**/[Oo]bj/
+
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+
+# .NET Core
+*.swp
+*.suo
+*.user
+*.bak
+*.cache
+*.tmp
+*.log
+*.vscode
+*.vs
+.vs/
+*.sln.docstates
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+artifacts/
+Generated Files/
+bower_components/
+node_modules/
+test-results/
+*.testsettings
+*.trx
+*.cspkg
+*.PublishSettings
+publish/
+*.PublishProfiles
+*.pubxml
+*.pubxml.user
+*.pfx
+*.pfx.*
+*.snk
+*.userprefs
+*.userprefs.*
+
+# NuGet packages
+## Ignore NuGet Packages
+*.nuget/
+*.nupkg
+packages/
+#except lib folder
+!**/lib/
+/.vs/FluentValidation/v17/.suo
+/Test101/bin/Debug/net7.0/Test101.dll
+/.vs/TestWorkshop/v17/.suo
+/Test101/bin/Debug/net7.0/Test101.pdb
+/Test101/obj/Debug/net7.0/ref/Test101.dll
+/Test101/obj/Debug/net7.0/refint/Test101.dll
+/Test101/obj/Debug/net7.0/Test101.pdb
